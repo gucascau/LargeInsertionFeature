@@ -13,6 +13,8 @@ output:
 
 ``` {sh}
 
+#!/bin/bash
+
 ### Workflow for Ty1 analyses ####
 
 ### It is very interesting that the pattern of Ty insertion looks different in dna2, many other mutants and aging. This indicates the mechanism could be different to generate the substrates from Ty. It would ### be good if you generate some figures of Ty like what you did for rDNA. It will not show every events using bars but show the percent time nucleotide among all insertions.  
