@@ -19,8 +19,6 @@ Perl is used to run the scripts. The following softwares are also required:
 
 . blast (ncbi-blast-2.8.1+)(https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
 
-. pear (pear-0.9.11) (https://cme.h-its.org/exelixis/web/software/pear/doc.html)
-
 . bedtools (bedtools-2.25.0) (https://bedtools.readthedocs.io/en/latest/)
 
 # Install
