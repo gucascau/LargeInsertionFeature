@@ -3,12 +3,8 @@ title: "Coder Upgrade 2023: Ty1 nucleotide insertion map analysis"
 author: "Xin Wang"
 date: "`r format(Sys.time(), '%m/%d/%Y')`"
 output:
-    html_document:
-        toc: true
-        toc_float: true
-        toc_depth: 5
-        number_sections: false
-        code_folding: show
+    1: Ty1 nucleotide insertion counts 
+    2: Ty1 nucleotide insertion counts for forward and reverse strands
 ---
 
 ``` {sh}
