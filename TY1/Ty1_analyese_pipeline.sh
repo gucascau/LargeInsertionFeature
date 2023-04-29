@@ -1,5 +1,5 @@
 ---
-title: "Coder Upgrade 2023: Ty1 nucleotide insertion map analysis"
+title: "Ty1 nucleotide insertion map analysis"
 author: "Xin Wang"
 date: "`r format(Sys.time(), '%m/%d/%Y')`"
 output:
