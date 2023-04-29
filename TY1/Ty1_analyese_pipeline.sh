@@ -12,6 +12,9 @@ output:
 ---
 
 ``` {sh}
+# Set the start time
+message("Starting serial processing for Ty1 nucleotide insertion map:\n")
+t <- c(Sys.time())
 
 #!/bin/bash
 
@@ -81,5 +84,8 @@ awk '{if ($6=="-"){print}}' ${Fid}_combined.LTR.bed >${Fid}_combined_reverse.LTR
 
 perl /project/RC_Cardio-Chen-e2/ch220812/Project/Insertion/Ty1Analyses/Scripts/CalculateCoverage_Retrotransposon.pl -i ${Fid}_combined_reverse.LTR.bed -a ${Ty1Ann} -b ${Ty1} -g ${Fid}_combined_reverse -o ${Fid}_combined_reverse.LTR.cov.txt
 perl /project/RC_Cardio-Chen-e2/ch220812/Project/Insertion/Ty1Analyses/Scripts/CalculateCoverage_Retrotransposon.pl -i ${Fid}_combined_forward.LTR.bed -a ${Ty1Ann} -b ${Ty1} -g ${Fid}_combined_forward -o ${Fid}_combined_forward.LTR.cov.txt
+
+message("Congratulations! Ty1 nucleotide insertion map is completed:\n")
+t <- c(Sys.time())
 
 ```
