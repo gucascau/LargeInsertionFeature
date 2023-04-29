@@ -1,10 +1,10 @@
-### LargeInsertionFeature
+# LargeInsertionFeature
 
 ## Feature analyses of large insertion events
 
 Insertions of mobile elements, mitochondrial DNA and fragments of nuclear chromosomes at DNA double-strand breaks sites (DSBs) threaten genome integrity and are common in cancer. Despite extensive efforts, our knowledge of these insertions still remains unknown. These tutorials will focus on the different features of large insertion events.
 
-# Availability 
+##  Availability 
 
   1. Ty1 realignments, Ty nucleotide insertion map
   2. Mitochondrial insertion distribution
@@ -14,7 +14,7 @@ Insertions of mobile elements, mitochondrial DNA and fragments of nuclear chromo
   6. Genomic preference: ARS, Telomere, R-loop, tRNA, tandem repeats, essential genes
   7. Predictions of non-B structures of insertions: 
 
-# Dependencies
+## Dependencies
 
 Perl is used to run the scripts. The following softwares are also required:
 
@@ -22,14 +22,14 @@ Perl is used to run the scripts. The following softwares are also required:
 
 . bedtools (bedtools-2.25.0) (https://bedtools.readthedocs.io/en/latest/)
 
-# Install
+## Install
 
 ```
     cd ~
     git clone https://github.com/gucascau/LargeInsertionFeature
 ```   
 
-# Usage
+## Usage
 ```
 
 ```
