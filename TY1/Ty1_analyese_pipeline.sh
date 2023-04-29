@@ -1,3 +1,18 @@
+---
+title: "Coder Upgrade 2023: Ty1 nucleotide insertion map analysis"
+author: "Xin Wang"
+date: "`r format(Sys.time(), '%m/%d/%Y')`"
+output:
+    html_document:
+        toc: true
+        toc_float: true
+        toc_depth: 5
+        number_sections: false
+        code_folding: show
+---
+
+``` {sh}
+
 ### Workflow for Ty1 analyses ####
 
 ### It is very interesting that the pattern of Ty insertion looks different in dna2, many other mutants and aging. This indicates the mechanism could be different to generate the substrates from Ty. It would ### be good if you generate some figures of Ty like what you did for rDNA. It will not show every events using bars but show the percent time nucleotide among all insertions.  
@@ -45,8 +60,6 @@ cat ${Fid}.One.txt| perl -ne '{chomp; my ($read,$id,$chr,$start,$end,$strand,$se
 
 ~/Software/ncbi-blast-2.8.1+/bin/blastn -query ${Fid}.LTR.fasta -db ${Ty1} -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend qlen sstart send slen bitscore evalue' -out ${Fid}.LTR.blast -task blastn-short  -word_size 11 -evalue 0.01 -dust no -soft_masking false -gapopen 5 -penalty -1 -perc_identity 60
 
-## test for nuc1 
-
 # checking the overlapping stats
 perl /project/RC_Cardio-Chen-e2/ch220812/Project/Insertion/Ty1Analyses/Scripts/Identify_Best_AlignmentsForLTR_Bed.pl -i ${Fid}.LTR.blast -o ${Fid}.LTR.uniq -g ${Fid}
 
@@ -60,13 +73,11 @@ perl /project/RC_Cardio-Chen-e2/ch220812/Project/Insertion/Ty1Analyses/Scripts/C
 #### After get all the insertion, we combined them
 perl  /project/RC_Cardio-Chen-e2/ch220812/Project/Insertion/Ty1Analyses/Scripts/Combined_Insertion_counts.pl  -i $PWD -o Combined_InsertionCounts.txt
 
-
-
-Fid=wt
-
 ### Seperate into forward and reverse insertion
 awk '{if ($6=="+"){print}}' ${Fid}_combined.LTR.bed >${Fid}_combined_forward.LTR.bed
 awk '{if ($6=="-"){print}}' ${Fid}_combined.LTR.bed >${Fid}_combined_reverse.LTR.bed
 
 perl /project/RC_Cardio-Chen-e2/ch220812/Project/Insertion/Ty1Analyses/Scripts/CalculateCoverage_Retrotransposon.pl -i ${Fid}_combined_reverse.LTR.bed -a ${Ty1Ann} -b ${Ty1} -g ${Fid}_combined_reverse -o ${Fid}_combined_reverse.LTR.cov.txt
 perl /project/RC_Cardio-Chen-e2/ch220812/Project/Insertion/Ty1Analyses/Scripts/CalculateCoverage_Retrotransposon.pl -i ${Fid}_combined_forward.LTR.bed -a ${Ty1Ann} -b ${Ty1} -g ${Fid}_combined_forward -o ${Fid}_combined_forward.LTR.cov.txt
+
+```
