@@ -3,12 +3,8 @@ title: "Ty1 nucleotide insertion map analysis"
 author: "Xin Wang"
 date: "`r format(Sys.time(), '%m/%d/%Y')`"
 output:
-    html_document:
-        toc: true
-        toc_float: true
-        toc_depth: 5
-        number_sections: false
-        code_folding: show
+    1: Ty1 nucleotide insertion counts 
+    2: Ty1 nucleotide insertion counts for forward and reverse strands
 ---
 
 ``` {sh}
@@ -85,7 +81,11 @@ awk '{if ($6=="-"){print}}' ${Fid}_combined.LTR.bed >${Fid}_combined_reverse.LTR
 perl /project/RC_Cardio-Chen-e2/ch220812/Project/Insertion/Ty1Analyses/Scripts/CalculateCoverage_Retrotransposon.pl -i ${Fid}_combined_reverse.LTR.bed -a ${Ty1Ann} -b ${Ty1} -g ${Fid}_combined_reverse -o ${Fid}_combined_reverse.LTR.cov.txt
 perl /project/RC_Cardio-Chen-e2/ch220812/Project/Insertion/Ty1Analyses/Scripts/CalculateCoverage_Retrotransposon.pl -i ${Fid}_combined_forward.LTR.bed -a ${Ty1Ann} -b ${Ty1} -g ${Fid}_combined_forward -o ${Fid}_combined_forward.LTR.cov.txt
 
+<<<<<<< HEAD
 message("Congratulations! Ty1 nucleotide insertion map is completed:\n")
 t <- c(Sys.time())
 
 ```
+=======
+```
+>>>>>>> e612c7beecc8785d66b0cacd606643c3c41f63d3
