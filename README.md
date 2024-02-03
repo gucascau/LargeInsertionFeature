@@ -35,12 +35,13 @@ Perl is used to run the scripts. The following softwares are also required:
 #### Ty1Nuceotide
 
 1.1 Introduction of Ty1Nuceotide
+
 In some mutants and aging cells, we detected tons of insertions from retrotransposons. However, the retrotransposons were widely spread across the whole genome, which will result in the challenging to evaluate the retrotransposon insertion mechanism. To investigate the Ty1 nucleotide insertion frequency in each mutant, we have developed this package to well address the insertion distribution across Ty1.
  
 1.2 Usage: 
+
 ```
 Usage: sh Ty1_coverage.sh -a Sample ID -b Work Directory  -f Insertion events -r Output  -p Software installed Directory
-Note: In some mutants and aging cells, we detected tons of insertions from retrotransposons. However, the retrotransposons were widely spread across the whole genome, which will result in the challenging to evaluate the retrotransposon insertion mechanism. To investigate the Ty1 nucleotide insertion frequency in each mutant, we have developed this package to well address the insertion nucleotide distribution across Ty1.
 
 Request Parameters:
 	-a Sample Id (Example: yYY398-B_S10)
@@ -65,6 +66,7 @@ Optional Parameters of Ty1 reference
 
 ```
 1.3 Output
+
 The output will contain six columns, including the mapped Ty1 position and the nucleotide number of insertions.
 
 | column | explaination |
