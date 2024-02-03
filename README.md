@@ -32,7 +32,7 @@ Perl is used to run the scripts. The following softwares are also required:
 ## Usage
 
 ### Large Insertion Packages:
-1. Ty1Nuceotide
+#### Ty1Nuceotide
 
 1.1 Introduction of Ty1Nuceotide
 In some mutants and aging cells, we detected tons of insertions from retrotransposons. However, the retrotransposons were widely spread across the whole genome, which will result in the challenging to evaluate the retrotransposon insertion mechanism. To investigate the Ty1 nucleotide insertion frequency in each mutant, we have developed this package to well address the insertion distribution across Ty1.
