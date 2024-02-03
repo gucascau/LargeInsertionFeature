@@ -30,16 +30,59 @@ Perl is used to run the scripts. The following softwares are also required:
 ```   
 
 ## Usage
+
+### Large Insertion Packages:
+1. Ty1Nuceotide
+
+1.1 Introduction of Ty1Nuceotide
+In some mutants and aging cells, we detected tons of insertions from retrotransposons. However, the retrotransposons were widely spread across the whole genome, which will result in the challenging to evaluate the retrotransposon insertion mechanism. To investigate the Ty1 nucleotide insertion frequency in each mutant, we have developed this package to well address the insertion distribution across Ty1.
+ 
+1.2 Usage: 
 ```
+Usage: sh Ty1_coverage.sh -a Sample ID -b Work Directory  -f Insertion events -r Output  -p Software installed Directory
+Note: In some mutants and aging cells, we detected tons of insertions from retrotransposons. However, the retrotransposons were widely spread across the whole genome, which will result in the challenging to evaluate the retrotransposon insertion mechanism. To investigate the Ty1 nucleotide insertion frequency in each mutant, we have developed this package to well address the insertion nucleotide distribution across Ty1.
+
+Request Parameters:
+	-a Sample Id (Example: yYY398-B_S10)
+	-b The working directory, where you put the insertion events
+	-f The insertion event (Note: We only considered the insertion defined as single donor as the insertions with multiple donors might not be able to have a clean Ty1 locus.)
+	-p Software installed Path (Default:, it is the path where you store your blast software)
+
+
+Optional Parameters:
+
+Optional Parameters -- Ty1 Blast setting up:
+	-ms identity (Default: 60)
+	-mc Gapsize  (Default t)
+	-mb E value  (Default t)
+
+Optional Parameters of Ty1 reference
+	-c Ty1 blast index (Note: if you don't have blast index, please run the 'makeblastdb -in Ty1.fasta -dbtype nucl') (Default: ./LargeInsertionFeature/Ty1Nuceotide/Database/YPLWTY1-1.fasta)
+	-d The Ty1 annotation file (Default: ./LargeInsertionFeature/Ty1Nuceotide/Database/YPLWTY1-1.annotation.bed)
+	-r Script Stored Path (Default: ./LargeInsertionFeature/Ty1Nuceotide/src)
+
+	-h help
 
 ```
+1.3 Output
+The output will contain six columns, including the mapped Ty1 position and the nucleotide number of insertions.
+
+| column | explaination |
+| ------| ------|
+| 1st | Ty1 ID |
+| 2nd | Ty1 Position |
+| 3rd | Nuclear Sequence |
+| 4th | Rank Number |
+| 5th | The nucleotide number of Ty1 insertions |
+| 6th | Ty1 Annotation |
 
 
-# Output
+# Contact
 
-For each insertion event, we selected the most reliable representative read that showed the highest read quality, highest donor identity and the highest read count support. 
 
 For more detail information, please feel free to contact: xin.wang@childrens.harvard.edu
+
+This project is licensed under the terms of the MIT license.
 
 Copyright (c) 2023 Dr. Kaifu Chen lab
 

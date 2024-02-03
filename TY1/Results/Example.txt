@@ -1,5 +1,0 @@
-Example for the Ty1 outputs
-
-Details:
-
-    The example is to show insertion coverage distribution of Ty1 (YPLWTy1-1.fasta)
