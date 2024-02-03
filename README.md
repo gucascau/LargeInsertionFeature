@@ -7,12 +7,7 @@ Insertions of mobile elements, mitochondrial DNA and fragments of nuclear chromo
 ##  Availability 
 
   1. Ty1 realignments, Ty nucleotide insertion map
-  2. Mitochondrial insertion distribution
-  3. Mata insertion detection
-  4. Inverted insertion detection
-  5. ssDNA transformation
-  6. Genomic preference: ARS, Telomere, R-loop, tRNA, tandem repeats, essential genes
-  7. Predictions of non-B structures of insertions: 
+  2. Genomic preference: ARS, Telomere, R-loop, tRNA, tandem repeats, essential genes
 
 ## Dependencies
 
@@ -32,11 +27,11 @@ Perl is used to run the scripts. The following softwares are also required:
 ## Usage
 
 ### Large Insertion Packages:
-#### Ty1Nuceotide
+####  Ty1Nuceotide
 
 1.1 Introduction of Ty1Nuceotide
 
-In some mutants and aging cells, we detected tons of insertions from retrotransposons. However, the retrotransposons were widely spread across the whole genome, which will result in the challenging to evaluate the retrotransposon insertion mechanism. To investigate the Ty1 nucleotide insertion frequency in each mutant, we have developed this package to well address the insertion distribution across Ty1.
+In certain mutants and aging cells, we have identified a substantial number of insertions originating from retrotransposons. However, these retrotransposons were found to be extensively distributed throughout the entire genome, posing a challenge in assessing the mechanism of retrotransposon insertion. To delve into the Ty1 nucleotide insertion frequency within each mutant, we have created this package to comprehensively analyze the distribution of insertions across the Ty1 element. This tool aims to provide a detailed understanding of the Ty1 insertion patterns, enabling a more precise investigation into the mechanisms underlying retrotransposon insertions in various mutants and aging cell contexts.
  
 1.2 Usage: 
 

@@ -6,7 +6,8 @@
 # PI: Kaifu Chen                                                   
 # Description: 
 #  Retrotransposon -- Ty1 nucleotide insertion map analysis
-#    In some mutants and aging cells, we detected tons of insertions from retrotransposons. However, the retrotransposons were widely spread across the whole genome, which will result in the challenging to evaluate the retrotransposon insertion mechanism. To investigate the Ty1 nucleotide insertion frequency in each mutant, we have developed this package to well address the insertion distribution across Ty1.
+#    In certain mutants and aging cells, we have identified a substantial number of insertions originating from retrotransposons. However, these retrotransposons were found to be extensively distributed throughout the entire genome, posing a challenge in assessing the mechanism of retrotransposon insertion. To delve into the Ty1 nucleotide insertion frequency within each mutant, we have created this package to comprehensively analyze the distribution of insertions across the Ty1 element. This tool aims to provide a detailed understanding of the Ty1 insertion patterns, enabling a more precise investigation into the mechanisms underlying retrotransposon insertions in various mutants and aging cell contexts.
+
 # 	1. We extracted all insertion events that are approximately to or locataed within retrotransposons. 
 #	2. We only took one of the longest Ty1-1 from yeast genome in the table, which is the most dominant Ty and easy for the mapping
 #	3. We mapped the insertions with Ty retrotransposon annotaton against the Ty1-1 reference
@@ -23,7 +24,7 @@ helpFunction()
 {
 	echo "*********************************** how to use Ty1Nuceotide ***********************************"
 	echo "Usage: sh $0 -a Sample ID -b Work Directory  -f Insertion events -r Output  -p Software installed Directory"
-	echo "Note: In some mutants and aging cells, we detected tons of insertions from retrotransposons. However, the retrotransposons were widely spread across the whole genome, which will result in the challenging to evaluate the retrotransposon insertion mechanism. To investigate the Ty1 nucleotide insertion frequency in each mutant, we have developed this package to well address the insertion nucleotide distribution across Ty1."
+	echo "Note: In certain mutants and aging cells, we have identified a substantial number of insertions originating from retrotransposons. However, these retrotransposons were found to be extensively distributed throughout the entire genome, posing a challenge in assessing the mechanism of retrotransposon insertion. To delve into the Ty1 nucleotide insertion frequency within each mutant, we have created this package to comprehensively analyze the distribution of insertions across the Ty1 element. This tool aims to provide a detailed understanding of the Ty1 insertion patterns, enabling a more precise investigation into the mechanisms underlying retrotransposon insertions in various mutants and aging cell contexts."
 	echo ""
 	echo -e "Request Parameters:"
 	echo -e "\t-a Sample Id (Example: yYY398-B_S10)"
