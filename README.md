@@ -27,9 +27,9 @@ Perl is used to run the scripts. The following softwares are also required:
 ## Usage
 
 ### Large Insertion Packages:
-####  Ty1Nuceotide
+####  Ty1Nucleotide
 
-1.1 Introduction of Ty1Nuceotide
+1.1 Introduction of Ty1Nucleotide
 
 In certain mutants and aging cells, we have identified a substantial number of insertions originating from retrotransposons. However, these retrotransposons were found to be extensively distributed throughout the entire genome, posing a challenge in assessing the mechanism of retrotransposon insertion. To delve into the Ty1 nucleotide insertion frequency within each mutant, we have created this package to comprehensively analyze the distribution of insertions across the Ty1 element. This tool aims to provide a detailed understanding of the Ty1 insertion patterns, enabling a more precise investigation into the mechanisms underlying retrotransposon insertions in various mutants and aging cell contexts.
  
@@ -53,9 +53,9 @@ Optional Parameters -- Ty1 Blast setting up:
 	-mb E value  (Default t)
 
 Optional Parameters of Ty1 reference
-	-c Ty1 blast index (Note: if you don't have blast index, please run the 'makeblastdb -in Ty1.fasta -dbtype nucl') (Default: ./LargeInsertionFeature/Ty1Nuceotide/Database/YPLWTY1-1.fasta)
-	-d The Ty1 annotation file (Default: ./LargeInsertionFeature/Ty1Nuceotide/Database/YPLWTY1-1.annotation.bed)
-	-r Script Stored Path (Default: ./LargeInsertionFeature/Ty1Nuceotide/src)
+	-c Ty1 blast index (Note: if you don't have blast index, please run the 'makeblastdb -in Ty1.fasta -dbtype nucl') (Default: ./LargeInsertionFeature/Ty1Nucleotide/Database/YPLWTY1-1.fasta)
+	-d The Ty1 annotation file (Default: ./LargeInsertionFeature/Ty1Nucleotide/Database/YPLWTY1-1.annotation.bed)
+	-r Script Stored Path (Default: ./LargeInsertionFeature/Ty1Nucleotide/src)
 
 	-h help
 
