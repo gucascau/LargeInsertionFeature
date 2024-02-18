@@ -86,7 +86,8 @@ Please following the instruction of Insertion_Approximity_Overlap_Features.sh an
 sh Insertion_Approximity_Overlap_Features.sh
 ````
 
-2.3 Output
+2.3 Output:
+
 The output will have the feature comparisons between randomed and observed, including ARS, R-loop, centromere, telomere, tRNA, and TRF.
 
 # Contact
