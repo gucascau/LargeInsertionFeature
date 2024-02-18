@@ -80,12 +80,14 @@ In certain mutants and aging cells, we have identified a substantial number of i
 
 2.2 Usage: 
 
-````
+Please following the instruction of Insertion_Approximity_Overlap_Features.sh and pay attention to the note details.
 
+````
+sh Insertion_Approximity_Overlap_Features.sh
 ````
 
 2.3 Output
-
+The output will have the feature comparisons between randomed and observed, including ARS, R-loop, centromere, telomere, tRNA, and TRF.
 
 # Contact
 
