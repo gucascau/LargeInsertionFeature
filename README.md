@@ -73,6 +73,19 @@ The output will contain six columns, including the mapped Ty1 position and the n
 | 5th | The nucleotide number of Ty1 insertions |
 | 6th | Ty1 Annotation |
 
+####  InsFeatures
+2.1 Introduction of InsFeatures
+
+In certain mutants and aging cells, we have identified a substantial number of insertions. Inserted fragments of nuclear genome often originated from fragile regions of the genome such as telomeric, R-loops, or repetitive regions. In DNA2 defeciencty, insertions from nuclear genome tends to be preference for fragile regions such as origins of replication, R-loops, centromeres, telomeres or replication fork barriers (Yang. et.al. Nature. 2018). However, the approximity and ovelapping features of these insertions are still unknown in other mutants and aging cells. Here we introduced the InsFeatures to automatically detect the approximity and overlapping features, including ARS, Telomere, R-loop, Centromere, Tandem repeats, tRNA.
+
+2.2 Usage: 
+
+````
+
+````
+
+2.3 Output
+
 
 # Contact
 
