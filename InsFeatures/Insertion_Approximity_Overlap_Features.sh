@@ -68,7 +68,7 @@ do
       b ) WDir="$OPTARG" ;;
 	  p ) softpath="$OPTARG" ;;
   	  f ) SInsert="$OPTARG" ;;
-  	  r) MIsert="$OPTARG"
+  	  r) MIsert="$OPTARG" ;;
 
 
 
