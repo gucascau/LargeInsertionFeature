@@ -90,6 +90,16 @@ sh Insertion_Approximity_Overlap_Features.sh
 
 The output will have the feature comparisons between randomed and observed, including ARS, R-loop, centromere, telomere, tRNA, and TRF.
 
+#### InsMicro
+3.1 Introduction of the microhomology detection
+
+Microhomology is a short region of DNA sequence that is identical between the donor and the junction of DSB site. We here used the BLASTN to identify the identical elements between the donor and the junction.
+
+3.2 Usage
+
+Please following the pipeline in the script of the InsMicro/PipelineMicrohomology.sh
+
+
 # Citation
 Yu, Y._#_, Wang, X._#_, Fox, J._#_, et al. **Yeast EndoG prevents genome instability by degrading extranuclear DNA species**. _Nat Commun_ 15, 7653 (2024). https://doi.org/10.1038/s41467-024-52147-2
 
