@@ -91,7 +91,7 @@ sh Insertion_Approximity_Overlap_Features.sh
 The output will have the feature comparisons between randomed and observed, including ARS, R-loop, centromere, telomere, tRNA, and TRF.
 
 # Citation
-Yu, Y._#_, Wang, X._#_, Fox, J._#_, et al. **Yeast EndoG prevents genome instability by degrading extranuclear DNA species**. _Nat Commun_ 15, 7653 (2024). https://doi.org/10.1038/s41467-024-52147-2
+Yu, Y._#_, Wang, X._#_, Fox, J._#_, Yu, R., Thakre, P., Nikoloutsos, N., Yu, Y., Li, Q., Hastings P.J., Dang, W., Chen, K*, Ira, G*. **Yeast EndoG prevents genome instability by degrading extranuclear DNA species**. _Nat Commun_ 15, 7653 (2024). https://doi.org/10.1038/s41467-024-52147-2
 
 
 # Contact
