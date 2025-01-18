@@ -179,13 +179,13 @@ cd ${WDir}
 
 
 # get the Ty1 insertion fasta files
-cat ${WDir}/${Insert}| perl -ne '{chomp; my ($read,$id,$chr,$start,$end,$strand,$seq,$inf,$ltr,$distdes)=(split/\t/,$_)[1,2,10,11,12,13,40,41,42,43];next if ($inf eq "NO");   next if ($chr eq "chrXII" && $start >=451418 && $end <= 469316); my ($type,$details)=(split/\|/,$inf)[0,1];next unless (($type eq "LTR_retrotransposon" && $distdes eq "ENTIRE" && $details =~/Ty1-1/)); print ">$read\n$seq\n" }'  > ${SampleID}.LTR.fasta
+cat ${WDir}/${Insert}| perl -ne '{chomp; my ($read,$id,$chr,$start,$end,$strand,$seq,$inf,$ltr,$distdes)=(split/\t/,$_)[1,2,10,11,12,13,40,41,42,43];next if ($inf eq "NO");   next if ($chr eq "chrXII" && $start >=451418 && $end <= 469316); my ($type,$details)=(split/\|/,$inf)[0,1];next unless (($type eq "LTR_retrotransposon" && $distdes eq "ENTIRE" && $details =~/Ty1-1/)||($type eq "long terminal repeats")); print ">$read\n$seq\n" }'  > ${SampleID}.LTR.fasta
  
 # print the insertion events:
 
-cat ${WDir}/${Insert}| perl -ne '{chomp; my ($read,$id,$chr,$start,$end,$strand,$seq,$inf,$ltr,$distdes)=(split/\t/,$_)[1,2,10,11,12,13,40,41,42,43];next if ($inf eq "NO");   next if ($chr eq "chrXII" && $start >=451418 && $end <= 469316); my ($type,$details)=(split/\|/,$inf)[0,1];next unless (($type eq "LTR_retrotransposon" && $distdes eq "ENTIRE" && $details =~/Ty1-1/)); print "$_\n" }'  > ${SampleID}.Ty1.insert.txt
+cat ${WDir}/${Insert}| perl -ne '{chomp; my ($read,$id,$chr,$start,$end,$strand,$seq,$inf,$ltr,$distdes)=(split/\t/,$_)[1,2,10,11,12,13,40,41,42,43];next if ($inf eq "NO");   next if ($chr eq "chrXII" && $start >=451418 && $end <= 469316); my ($type,$details)=(split/\|/,$inf)[0,1];next unless (($type eq "LTR_retrotransposon" && $distdes eq "ENTIRE" && $details =~/Ty1-1/)||($type eq "long terminal repeats")); print "$_\n" }'  > ${SampleID}.Ty1.insert.txt
  
-# cat nuc1\ 3\ days.One.txt| perl -ne '{chomp; my ($read,$id,$chr,$start,$end,$strand,$seq,$inf,$ltr,$distdes)=(split/\t/,$_)[1,2,10,11,12,13,40,41,42,43];next if ($inf eq "NO");   next if ($chr eq "chrXII" && $start >=451418 && $end <= 469316); my ($type,$details)=(split/\|/,$inf)[0,1];next unless (($type eq "LTR_retrotransposon" && $distdes eq "ENTIRE" && $details =~/Ty1-1/)); print ">$read\n$seq\n" }' >${SampleID}.LTR.fasta
+# cat nuc1\ 3\ days.One.txt| perl -ne '{chomp; my ($read,$id,$chr,$start,$end,$strand,$seq,$inf,$ltr,$distdes)=(split/\t/,$_)[1,2,10,11,12,13,40,41,42,43];next if ($inf eq "NO");   next if ($chr eq "chrXII" && $start >=451418 && $end <= 469316); my ($type,$details)=(split/\|/,$inf)[0,1];next unless (($type eq "LTR_retrotransposon" && $distdes eq "ENTIRE" && $details =~/Ty1-1/)||($type eq "long terminal repeats")); print ">$read\n$seq\n" }' >${SampleID}.LTR.fasta
 
 #grep "LTR" ${i}_combined_single_final.Microhomology.txt|perl -ne '{chomp; my @array=split/\t/,$_; if ($array[16]==0){print ">$array[0]\n$array[3]\n"}}' >${i}_combined_single_final.LTR.fasta
 
