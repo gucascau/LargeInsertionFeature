@@ -107,7 +107,7 @@ _Yu, Y.#, Wang, X.#, Fox, J.#, Yu, R., Thakre, P., Nikoloutsos, N., Yu, Y., Li, 
 
 _Yu, Y.#*, Wang, X.#, Fox, J., Li, Q., Yu, Y., Hastings, P.J., Chen, K* and Ira, G*._ **RPA and Rad27 limit templated and inverted insertions at DNA breaks**. _Nucleic Acids Research_(2025).  https://doi.org/10.1093/nar/gkae1159
 
-_Fox, J.#,Yu, Y.#, Yu, Y., Thakre, P., Fox C, Li, Q., Wang, Y., Hughes, A., Wang, X*, Chen, K* and Ira, G*._ **Deficits in mitochondrial dynamics and iron balance result in templated 1 insertions**. _Nat Commun_(2025) In press.  
+_Fox, J.#, Yu, Y.#, Yu, Y., Thakre, P., Fox C, Li, Q., Wang, Y., Hughes, A., Wang, X*, Chen, K* and Ira, G*._ **Deficits in mitochondrial dynamics and iron balance result in templated 1 insertions**. _Nat Commun_(2025) In press.  
 # Contact
 
 For more detail information, please feel free to contact: xin.wang@childrens.harvard.edu
