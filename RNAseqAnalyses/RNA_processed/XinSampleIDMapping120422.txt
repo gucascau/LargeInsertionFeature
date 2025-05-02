@@ -1,0 +1,17 @@
+A1
+A2B
+A3B
+B1
+B2
+B3
+C1B
+C2
+C3B
+D1
+D2
+D3
+E2
+E3
+E3B
+F1
+G1B

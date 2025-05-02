@@ -1,0 +1,111 @@
+GO	Term	Systematic_Name	comparison	logFC	group
+GO:0015688	iron chelate transport	YDR534C	mmm1.wt	2.11427876327604	Xue.data
+GO:0015688	iron chelate transport	YEL065W	mmm1.wt	1.0629955624792	Xue.data
+GO:0015688	iron chelate transport	YHL040C	mmm1.wt	1.00009524265172	Xue.data
+GO:0015688	iron chelate transport	YHL047C	mmm1.wt	1.65759452337884	Xue.data
+GO:0015688	iron chelate transport	YOR381W	mmm1.wt	1.32866398516519	Xue.data
+GO:0015688	iron chelate transport	YOR382W	mmm1.wt	0.705360945170661	Xue.data
+GO:0015688	iron chelate transport	YOR383C	mmm1.wt	0.978797114236215	Xue.data
+GO:1901678	iron coordination entity transport	YDR534C	mmm1.wt	2.11427876327604	Xue.data
+GO:1901678	iron coordination entity transport	YEL065W	mmm1.wt	1.0629955624792	Xue.data
+GO:1901678	iron coordination entity transport	YHL040C	mmm1.wt	1.00009524265172	Xue.data
+GO:1901678	iron coordination entity transport	YHL047C	mmm1.wt	1.65759452337884	Xue.data
+GO:1901678	iron coordination entity transport	YOR381W	mmm1.wt	1.32866398516519	Xue.data
+GO:1901678	iron coordination entity transport	YOR382W	mmm1.wt	0.705360945170661	Xue.data
+GO:1901678	iron coordination entity transport	YOR383C	mmm1.wt	0.978797114236215	Xue.data
+GO:0055072	iron ion homeostasis	YDR534C	mmm1.wt	2.11427876327604	Xue.data
+GO:0055072	iron ion homeostasis	YEL065W	mmm1.wt	1.0629955624792	Xue.data
+GO:0055072	iron ion homeostasis	YHL040C	mmm1.wt	1.00009524265172	Xue.data
+GO:0055072	iron ion homeostasis	YHL047C	mmm1.wt	1.65759452337884	Xue.data
+GO:0055072	iron ion homeostasis	YJR005C-A	mmm1.wt	2.32433186955743	Xue.data
+GO:0055072	iron ion homeostasis	YLR136C	mmm1.wt	1.03473552918833	Xue.data
+GO:0055072	iron ion homeostasis	YOR381W	mmm1.wt	1.32866398516519	Xue.data
+GO:0055072	iron ion homeostasis	YOR382W	mmm1.wt	0.705360945170661	Xue.data
+GO:0055072	iron ion homeostasis	YOR383C	mmm1.wt	0.978797114236215	Xue.data
+GO:0006879	cellular iron ion homeostasis	YEL065W	mmm1.wt	1.0629955624792	Xue.data
+GO:0006879	cellular iron ion homeostasis	YHL040C	mmm1.wt	1.00009524265172	Xue.data
+GO:0006879	cellular iron ion homeostasis	YHL047C	mmm1.wt	1.65759452337884	Xue.data
+GO:0006879	cellular iron ion homeostasis	YLR136C	mmm1.wt	1.03473552918833	Xue.data
+GO:0006879	cellular iron ion homeostasis	YOR381W	mmm1.wt	1.32866398516519	Xue.data
+GO:0006826	iron ion transport	YOR381W	mmm1.wt	1.32866398516519	Xue.data
+GO:0033214	iron assimilation by chelation and transport	YEL065W	mmm1.wt	1.0629955624792	Xue.data
+GO:0033214	iron assimilation by chelation and transport	YHL040C	mmm1.wt	1.00009524265172	Xue.data
+GO:0033214	iron assimilation by chelation and transport	YHL047C	mmm1.wt	1.65759452337884	Xue.data
+GO:0033212	iron assimilation	YEL065W	mmm1.wt	1.0629955624792	Xue.data
+GO:0033212	iron assimilation	YHL040C	mmm1.wt	1.00009524265172	Xue.data
+GO:0033212	iron assimilation	YHL047C	mmm1.wt	1.65759452337884	Xue.data
+GO:0015688	iron chelate transport	YDR534C	mdm34.wt	2.12781570388715	Xue.data
+GO:0015688	iron chelate transport	YEL065W	mdm34.wt	1.02141301931863	Xue.data
+GO:0015688	iron chelate transport	YHL040C	mdm34.wt	0.90616578502313	Xue.data
+GO:0015688	iron chelate transport	YHL047C	mdm34.wt	1.68717046498577	Xue.data
+GO:0015688	iron chelate transport	YOR382W	mdm34.wt	0.672137260952206	Xue.data
+GO:0015688	iron chelate transport	YOR383C	mdm34.wt	0.954563936652288	Xue.data
+GO:1901678	iron coordination entity transport	YDR534C	mdm34.wt	2.12781570388715	Xue.data
+GO:1901678	iron coordination entity transport	YEL065W	mdm34.wt	1.02141301931863	Xue.data
+GO:1901678	iron coordination entity transport	YHL040C	mdm34.wt	0.90616578502313	Xue.data
+GO:1901678	iron coordination entity transport	YHL047C	mdm34.wt	1.68717046498577	Xue.data
+GO:1901678	iron coordination entity transport	YOR382W	mdm34.wt	0.672137260952206	Xue.data
+GO:1901678	iron coordination entity transport	YOR383C	mdm34.wt	0.954563936652288	Xue.data
+GO:0055072	iron ion homeostasis	YDR534C	mdm34.wt	2.12781570388715	Xue.data
+GO:0055072	iron ion homeostasis	YEL065W	mdm34.wt	1.02141301931863	Xue.data
+GO:0055072	iron ion homeostasis	YHL040C	mdm34.wt	0.90616578502313	Xue.data
+GO:0055072	iron ion homeostasis	YHL047C	mdm34.wt	1.68717046498577	Xue.data
+GO:0055072	iron ion homeostasis	YJR005C-A	mdm34.wt	2.40951966733137	Xue.data
+GO:0055072	iron ion homeostasis	YLR136C	mdm34.wt	1.06556666606018	Xue.data
+GO:0055072	iron ion homeostasis	YOR382W	mdm34.wt	0.672137260952206	Xue.data
+GO:0055072	iron ion homeostasis	YOR383C	mdm34.wt	0.954563936652288	Xue.data
+GO:0006879	cellular iron ion homeostasis	YEL065W	mdm34.wt	1.02141301931863	Xue.data
+GO:0006879	cellular iron ion homeostasis	YHL040C	mdm34.wt	0.90616578502313	Xue.data
+GO:0006879	cellular iron ion homeostasis	YHL047C	mdm34.wt	1.68717046498577	Xue.data
+GO:0006879	cellular iron ion homeostasis	YLR136C	mdm34.wt	1.06556666606018	Xue.data
+GO:0033214	iron assimilation by chelation and transport	YEL065W	mdm34.wt	1.02141301931863	Xue.data
+GO:0033214	iron assimilation by chelation and transport	YHL040C	mdm34.wt	0.90616578502313	Xue.data
+GO:0033214	iron assimilation by chelation and transport	YHL047C	mdm34.wt	1.68717046498577	Xue.data
+GO:0033212	iron assimilation	YEL065W	mdm34.wt	1.02141301931863	Xue.data
+GO:0033212	iron assimilation	YHL040C	mdm34.wt	0.90616578502313	Xue.data
+GO:0033212	iron assimilation	YHL047C	mdm34.wt	1.68717046498577	Xue.data
+GO:0015688	iron chelate transport	YEL065W	mgm1.wt	0.246299252546124	Xin.data
+GO:0015688	iron chelate transport	YOR382W	mgm1.wt	0.684879887636063	Xin.data
+GO:0015688	iron chelate transport	YOL158C	mgm1.wt	0.309079665945602	Xin.data
+GO:0015688	iron chelate transport	YHL040C	mgm1.wt	0.542525100344329	Xin.data
+GO:0015688	iron chelate transport	YOR383C	mgm1.wt	0.961808331065125	Xin.data
+GO:1901678	iron coordination entity transport	YEL065W	mgm1.wt	0.246299252546124	Xin.data
+GO:1901678	iron coordination entity transport	YER185W	mgm1.wt	0.485596982001032	Xin.data
+GO:1901678	iron coordination entity transport	YOR382W	mgm1.wt	0.684879887636063	Xin.data
+GO:1901678	iron coordination entity transport	YOL158C	mgm1.wt	0.309079665945602	Xin.data
+GO:1901678	iron coordination entity transport	YHL040C	mgm1.wt	0.542525100344329	Xin.data
+GO:1901678	iron coordination entity transport	YOR383C	mgm1.wt	0.961808331065125	Xin.data
+GO:0055072	iron ion homeostasis	YEL065W	mgm1.wt	0.246299252546124	Xin.data
+GO:0055072	iron ion homeostasis	YER174C	mgm1.wt	0.246631065407561	Xin.data
+GO:0055072	iron ion homeostasis	YOR382W	mgm1.wt	0.684879887636063	Xin.data
+GO:0055072	iron ion homeostasis	YPL202C	mgm1.wt	0.301612437866498	Xin.data
+GO:0055072	iron ion homeostasis	YMR058W	mgm1.wt	0.365174338845019	Xin.data
+GO:0055072	iron ion homeostasis	YLR126C	mgm1.wt	0.341510407438402	Xin.data
+GO:0055072	iron ion homeostasis	YLR136C	mgm1.wt	2.07917410610955	Xin.data
+GO:0055072	iron ion homeostasis	YOL158C	mgm1.wt	0.309079665945602	Xin.data
+GO:0055072	iron ion homeostasis	YHL040C	mgm1.wt	0.542525100344329	Xin.data
+GO:0055072	iron ion homeostasis	YOR383C	mgm1.wt	0.961808331065125	Xin.data
+GO:0055072	iron ion homeostasis	YLR214W	mgm1.wt	0.458283231681458	Xin.data
+GO:0055072	iron ion homeostasis	YJR005C-A	mgm1.wt	4.13789863188477	Xin.data
+GO:0006879	cellular iron ion homeostasis	YEL065W	mgm1.wt	0.246299252546124	Xin.data
+GO:0006879	cellular iron ion homeostasis	YER174C	mgm1.wt	0.246631065407561	Xin.data
+GO:0006879	cellular iron ion homeostasis	YPL202C	mgm1.wt	0.301612437866498	Xin.data
+GO:0006879	cellular iron ion homeostasis	YMR058W	mgm1.wt	0.365174338845019	Xin.data
+GO:0006879	cellular iron ion homeostasis	YLR126C	mgm1.wt	0.341510407438402	Xin.data
+GO:0006879	cellular iron ion homeostasis	YLR136C	mgm1.wt	2.07917410610955	Xin.data
+GO:0006879	cellular iron ion homeostasis	YOL158C	mgm1.wt	0.309079665945602	Xin.data
+GO:0006879	cellular iron ion homeostasis	YHL040C	mgm1.wt	0.542525100344329	Xin.data
+GO:0006879	cellular iron ion homeostasis	YLR214W	mgm1.wt	0.458283231681458	Xin.data
+GO:0016226	iron-sulfur cluster assembly	YNL240C	mgm1.wt	0.352389961889898	Xin.data
+GO:0016226	iron-sulfur cluster assembly	YCR008W	mgm1.wt	0.250284839091645	Xin.data
+GO:0016226	iron-sulfur cluster assembly	YPL252C	mgm1.wt	0.582531953983102	Xin.data
+GO:0016226	iron-sulfur cluster assembly	YHR122W	mgm1.wt	0.33965797521671	Xin.data
+GO:0006826	iron ion transport	YOL158C	mgm1.wt	0.309079665945602	Xin.data
+GO:0006826	iron ion transport	YLR214W	mgm1.wt	0.458283231681458	Xin.data
+GO:0033214	iron assimilation by chelation and transport	YEL065W	mgm1.wt	0.246299252546124	Xin.data
+GO:0033214	iron assimilation by chelation and transport	YOL158C	mgm1.wt	0.309079665945602	Xin.data
+GO:0033214	iron assimilation by chelation and transport	YHL040C	mgm1.wt	0.542525100344329	Xin.data
+GO:0033212	iron assimilation	YEL065W	mgm1.wt	0.246299252546124	Xin.data
+GO:0033212	iron assimilation	YMR058W	mgm1.wt	0.365174338845019	Xin.data
+GO:0033212	iron assimilation	YOL158C	mgm1.wt	0.309079665945602	Xin.data
+GO:0033212	iron assimilation	YHL040C	mgm1.wt	0.542525100344329	Xin.data
